@@ -6,14 +6,28 @@ import java.util.*;
  * https://www.acmicpc.net/problem/2667
  */
 public class Danji {
-  public static boolean inMap(int x, int y, int N) {
+  /**
+   * Indicate whether the coordinate is within the map
+   * @param x x coordinate
+   * @param y y coordinate
+   * @param N the dimension
+   * @return the coord is in the map if true
+   */
+  private static boolean inMap(int x, int y, int N) {
     return x >= 0 && x < N && y >= 0 && y < N;
   }
 
-  public static List<Integer> findDanji(List<ArrayList<House>> map, int N) {
+  /**
+   * Find different complexes in the map.
+   *
+   * @param map the map
+   * @param N the dimension of the map
+   * @return a list of size of complexes
+   */
+  private static List<Integer> findDanji(List<ArrayList<House>> map, int N) {
     int[][] offsets = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     int danjiIdx = 1;
-    List<Integer> danjiCounts = new ArrayList<Integer>();
+    List<Integer> danjiCounts = new ArrayList<>();
 
     // 맵을 돌면서 집이 있는 곳을 찾고, 아직 방문하지 않은 집이 있으면 거기서부터 DFS를 돌린다.
     for (int n = 0; n < N; n++) {
@@ -23,7 +37,7 @@ public class Danji {
         House house = houseRow.get(m);
         if (!house.visited && house.isHouse) {  // 집 하나 찾음
           // run DFS
-          Stack<House> stack = new Stack<House>();
+          Stack<House> stack = new Stack<>();
           stack.push(house);
           int danjiCount = 0;
 
@@ -80,11 +94,12 @@ public class Danji {
       }
     }
 
+    // 단지를 찾는다
     List<Integer> danjis = findDanji(map, N);
     System.out.println(danjis.size());
     Collections.sort(danjis);
-    for (int i = 0; i < danjis.size(); i++) {
-      System.out.println(danjis.get(i));
+    for (Integer danji : danjis) {
+      System.out.println(danji);
     }
   }
 }
