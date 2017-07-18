@@ -41,7 +41,5 @@ public class SelfNumber {
         System.out.println(i);
       }
     }
-
-
   }
 }
