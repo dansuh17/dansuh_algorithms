@@ -32,7 +32,6 @@ public class EasyStairNumber {
       }
     }
 
-
     long result = 0;
     for (int i = 0; i < 10; i++) {
       result += stairTable[N - 1][i];
