@@ -14,19 +14,20 @@ public class KthNumber {
 
   public static int partition(int[] arr, int start, int end) {
     // partition the array by selecting a pivot
-    int mid = (start + end) / 2;
+    Random rand = new Random();
+    int mid = rand.nextInt(end - start + 1) + start;
     swap(arr, mid, start);
     int pivot = arr[start];
 
-    int i = start + 1;
+    int i = start;
     int j = end;
 
     while (i < j) {
-      while (arr[i] <= pivot && i < j) {
+      while (arr[i] <= pivot && i < end) {
         i++;
       }
 
-      while (arr[j] > pivot && i < j) {
+      while (arr[j] > pivot && j > start) {
         j--;
       }
 
@@ -35,11 +36,10 @@ public class KthNumber {
       }
     }
 
-
     // at the end of the loop the number at position i == j will have value
     // greater than or equal to the pivot value
-    swap(arr, i - 1, start);
-    return i - 1;
+    swap(arr, j, start);
+    return j;
   }
 
   /**
@@ -50,18 +50,21 @@ public class KthNumber {
    * @param end end index of the array
    * @return kth number of the array
    */
-  public static int kthNum(int[] arr, int k, int start, int end) {
-    if (start > end) return -1;  // can this happen?
+  public static int kthNum(int[] arr, final int k, int start, int end) {
+    if (start > end) return -1;  // can this even happen?
 
     int piv = partition(arr, start, end);
 
-    if (piv + 1 == k) {
+    if (piv == k) {
       return arr[piv];
-    } else if (piv  + 1 > k) {
-      return kthNum(arr, k, start, piv - 1);
+    } else if (piv > k) {
+      end = piv - 1;
     } else {
-      return kthNum(arr, k, piv + 1, end);
+      start = piv + 1;
     }
+
+    // tail call
+    return kthNum(arr, k, start, end);
   }
 
   public static void main(String[] args) throws java.io.IOException {
@@ -73,11 +76,13 @@ public class KthNumber {
 
     // create the array
     int[] arr = new int[N];
-    String[] arrayStrs = bf.readLine().split(" ");
+    // String[] array = bf.readLine().split(" "); // discarded due to timeouts.
+    // using StringTokenizer is a bit faster....although discouraged to use in production env.
+    StringTokenizer st = new StringTokenizer(bf.readLine());
     for (int n = 0; n < N; n++) {
-      arr[n] = Integer.parseInt(arrayStrs[n]);
+      arr[n] = Integer.parseInt(st.nextToken());
     }
 
-    System.out.println(kthNum(arr, k, 0, arr.length - 1));
+    System.out.println(kthNum(arr, k - 1, 0, arr.length - 1));
   }
 }
