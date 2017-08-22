@@ -14,6 +14,12 @@ Problem types and notation:
 
 [baekjoon 5430 - AC](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
 
+## Sorting
+
+### Insertion Sort
+
+[baekjoon 9426 - 중앙값 측정](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
+
 ## Graph
 
 ### Topological Sorting
