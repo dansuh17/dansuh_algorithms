@@ -14,6 +14,13 @@ Problem types and notation:
 
 [baekjoon 5430 - AC](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
 
+### Tree
+
+[baekjoon 1991 - 트리 순회](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
+
+[baekjoon 11725 - 트리의 부모 찾기](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
+
+
 ## Sorting
 
 ### Insertion Sort
