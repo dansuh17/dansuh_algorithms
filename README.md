@@ -20,6 +20,8 @@ Problem types and notation:
 
 [baekjoon 11725 - 트리의 부모 찾기](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
 
+[baekjoon 1167 - 트리의 지름](src/RadiusOfTree.java) ([문제](https://www.acmicpc.net/problem/1167))
+
 
 ## Sorting
 
