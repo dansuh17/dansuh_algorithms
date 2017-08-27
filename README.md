@@ -22,6 +22,9 @@ Problem types and notation:
 
 [baekjoon 1167 - 트리의 지름](src/RadiusOfTree.java) ([문제](https://www.acmicpc.net/problem/1167))
 
+[baekjoon 1967 - 트리의 지름](src/RadiusOfTree2.java) ([문제](https://www.acmicpc.net/problem/1967))
+
+[baekjoon 2250 - 트리의 넓이와 깊이](src/TreeHeightWidth.java) ([문제](https://www.acmicpc.net/problem/2250))
 
 ## Sorting
 
