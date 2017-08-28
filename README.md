@@ -26,6 +26,8 @@ Problem types and notation:
 
 [baekjoon 2250 - 트리의 넓이와 깊이](src/TreeHeightWidth.java) ([문제](https://www.acmicpc.net/problem/2250))
 
+[*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
+
 ## Sorting
 
 ### Insertion Sort
@@ -41,4 +43,8 @@ Problem types and notation:
 [baekjoon 1516 - 게임 개발](src/GameDevelopment.java) ([문제](https://www.acmicpc.net/problem/1516))
 
 [baekjoon 1766 - 문제집](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
+
+## Dynamic Programming
+
+[*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
