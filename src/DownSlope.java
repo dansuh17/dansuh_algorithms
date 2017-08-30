@@ -57,7 +57,7 @@ public class DownSlope {
    * @param M maximum row
    * @param N maximum column
    * @param visited visited map
-   * @return number of downslope paths to coordinate (m, n)
+   * @return number of downslope paths to coordinate (m, N)
    */
   public static int findPath(List<ArrayList<Integer>> map, int m, int n, int[][] numPaths,
                              int[][] adj, int M, int N, boolean[][] visited) {

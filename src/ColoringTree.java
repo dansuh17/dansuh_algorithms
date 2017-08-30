@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+
 /**
  * 백준 문제 1693번 '트리 색칠하기'
  * https://www.acmicpc.net/problem/1693
@@ -26,6 +27,7 @@ public class ColoringTree {
     bw.close();
   }
 }
+
 
 class ColoringTreeTree {
   int V;

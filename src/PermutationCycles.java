@@ -40,7 +40,7 @@ public class PermutationCycles {
           }
           cycleCount++;
         }
-      }  // n-loop end
+      }  // N-loop end
 
       System.out.println(cycleCount);
     }  // t-loop end

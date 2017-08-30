@@ -6,7 +6,7 @@ import java.util.*;
  * https://www.acmicpc.net/problem/9426
  *
  * Used continuous sorted insertions.
- * O(n^2) algorithm.
+ * O(N^2) algorithm.
  */
 public class MeasuringMedian {
   public static void main(String[] args) throws IOException {
