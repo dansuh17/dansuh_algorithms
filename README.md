@@ -50,8 +50,9 @@ Problem types and notation:
 
 [baekjoon 2293 - 동전 1](src/CoinOne.java) ([문제](https://www.acmicpc.net/problem/2293))
 
-[baekjoon 9251 - Longest Common Subsequence](src/LCS.java) ([문제](https://www.acmicpc.net/problem/9251))
+[baekjoon 9251 - Longest Common Subsequence](src/LCS.java) Basic ([문제](https://www.acmicpc.net/problem/9251))
+
+[baekjoon 11066 - 파일 합치기](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
 
 [*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
-
 
