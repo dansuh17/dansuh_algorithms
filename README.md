@@ -48,7 +48,9 @@ Problem types and notation:
 
 ## Dynamic Programming
 
-[baekjoon 2293 - 동전 1](src/CoinOne) ([문제](https://www.acmicpc.net/problem/2293))
+[baekjoon 2293 - 동전 1](src/CoinOne.java) ([문제](https://www.acmicpc.net/problem/2293))
+
+[baekjoon 9251 - Longest Common Subsequence](src/LCS.java) ([문제](https://www.acmicpc.net/problem/9251))
 
 [*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
