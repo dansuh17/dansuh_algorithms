@@ -4,6 +4,10 @@ Problem types and notation:
 
 - 백준 Online Judge : baekjoon
 
+## Finding Rules
+
+[baekjoon 2965 - 캥거루 세마리](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
+
 ## Data Structures
 
 ### Priority Queue
