@@ -4,9 +4,13 @@ Problem types and notation:
 
 - 백준 Online Judge : baekjoon
 
+- Kakao coding challenges learning : kakao
+
 ## Finding Rules
 
 [baekjoon 2965 - 캥거루 세마리](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
+
+[*kakao 157 - 하노이의 탑](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
 ## Data Structures
 
