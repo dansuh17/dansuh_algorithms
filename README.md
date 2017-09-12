@@ -66,5 +66,7 @@ Problem types and notation:
 
 [baekjoon 11066 - 파일 합치기](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
 
+[kakao 76 - 최적 행렬 곱셈](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
+
 [*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
