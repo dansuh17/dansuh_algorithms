@@ -6,6 +6,8 @@ Problem types and notation:
 
 - Kakao coding challenges learning : kakao
 
+- Kakao 2017 채용 모의고사 : kakao-mock
+
 ## Finding Rules
 
 [baekjoon 2965 - 캥거루 세마리](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
@@ -15,6 +17,12 @@ Problem types and notation:
 [*kakao 157 - 하노이의 탑](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
 ## Data Structures
+
+### Sets
+
+[kakao-mock 7 - 스티커 떼기](src/WordPuzzle.java)
+
+String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
 ### Priority Queue
 
@@ -67,6 +75,20 @@ Problem types and notation:
 [baekjoon 11066 - 파일 합치기](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
 
 [kakao 76 - 최적 행렬 곱셈](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
+
+[*kakao-mock 4 - 정사각형](src/LargestSquare.java)
+
+0과 1로 이루어진 표에서 1로 이루어진 가장 큰 정사각형을 찾는 문제
+
+[kakao-mock 5 - 땅따먹기](src/LandWar.java)
+
+[kakao-mock 6 - 스티커 떼기](src/StickerSum.java)
+
+스티커 줄에서 스티커를 몇 개 떼어 떼어낸 스티커의 합을 구하는 문제. 1차원 스티커가 원형으로 (cyclic) 연결되어 있고, 인접한 스티커는 뗄 수 없다.
+
+[kakao-mock 7 - 스티커 떼기](src/WordPuzzle.java)
+
+String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
 [*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
