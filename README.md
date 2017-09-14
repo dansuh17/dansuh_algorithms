@@ -16,6 +16,8 @@ Problem types and notation:
 
 [*kakao 157 - 하노이의 탑](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
+그 유명한 하노이의 탑 문제
+
 ## Data Structures
 
 ### Sets
@@ -86,9 +88,18 @@ String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 
 
 스티커 줄에서 스티커를 몇 개 떼어 떼어낸 스티커의 합을 구하는 문제. 1차원 스티커가 원형으로 (cyclic) 연결되어 있고, 인접한 스티커는 뗄 수 없다.
 
-[kakao-mock 7 - 스티커 떼기](src/WordPuzzle.java)
+[kakao-mock 7 - String 만들기](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
+[kakao 73 - 올바른 괄호](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+
+N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
+
 [*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
+## Math
+
+[kakao 73 - 올바른 괄호](src/RightParens.java) 카탈란수 (Catalan Number) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+
+N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
