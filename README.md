@@ -58,6 +58,12 @@ String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 
 
 ## Graph
 
+### Breadth-First Search (BFS)
+
+[kakao 591](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
+
+컬러링북에서 같은 색으로 연결된 영역의 크기 및 영역의 개수를 
+
 ### Topological Sorting
 
 [baekjoon 2252 - 줄 세우기](src/LineUp.java) ([문제](https://www.acmicpc.net/problem/2252))
@@ -103,3 +109,4 @@ N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수�
 [kakao 73 - 올바른 괄호](src/RightParens.java) 카탈란수 (Catalan Number) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
+카탈란수의 다른 표현이다. 카탈란수는 n + 1의 leaf node를 가진 binary tree의 개수이다.
