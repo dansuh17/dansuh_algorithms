@@ -110,3 +110,32 @@ N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수�
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 카탈란수의 다른 표현이다. 카탈란수는 n + 1의 leaf node를 가진 binary tree의 개수이다.
+
+
+## 2017 Kakao Coding Test
+
+### 1차 코딩테스트
+
+[#1 비밀지도](src/SecretMap.java)
+
+[#2 캐쉬](src/Cache.java)
+
+아주 단순한 LRU 캐쉬 구현
+
+[#3 카카오 다트 게임](src/KakaoDartGame.java)
+
+[#4 뉴스 클러스터링](src/NewsClustering.java)
+
+두 string 사이의 자카드 유사도(size(문자열 교집합) / size(문자열 합집합))를 구하는 문제
+
+[#5 프렌즈 4 블록](src/Friends4Block.java)
+
+2 x 2 블록이 같으면 터지는 게임에서 최종적으로 터지게 되는 칸 개수
+
+[#6 셔틀버스](src/ShuttleBus.java)
+
+주기적으로 운행되는 셔틀버스를 탈 수 있는 가장 늦은 시간을 구하는 문제
+
+[#7 추석 트래픽](src/ChoosukTraffic.java)
+
+추석 기간 동안 발생한 로그 목록 분석
