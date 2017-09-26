@@ -50,6 +50,15 @@ String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 
 
 [*baekjoon 1289 - 트리의 가중치 (Putevi)](src/Putevi.java) ([문제](https://www.acmicpc.net/problem/1289))
 
+
+### Union-Find
+
+[baekjoon 10216 - Count Circle Groups (Union-Find implementation)](src/CountCircleGroups2.java)
+ ([문제](https://www.acmicpc.net/problem/10216))
+
+그래프에서 서로 연결되어 있는 다른(disjoint) 그래프의 개수를 세는 문제. Disjoint set의 개수를 구하는 문제이므로
+Union-Find 자료구조를 활용해 풀었다.
+
 ## Sorting
 
 ### Insertion Sort
@@ -67,6 +76,10 @@ String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 
 [baekjoon 1325 - 효율적인 해킹](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
 
 가장 많은 컴퓨터를 감염시킬 수 있는 노드 찾기
+
+[baekjoon 10216 - Count Circle Groups](src/CountCircleGroups.java) ([문제](https://www.acmicpc.net/problem/10216))
+
+그래프에서 서로 연결되어 있는 다른 그래프의 개수를 세는 문제
 
 ### Topological Sorting
 
