@@ -73,6 +73,10 @@ Union-Find 자료구조를 활용해 풀었다.
 
 컬러링북에서 같은 색으로 연결된 영역의 크기 및 영역의 개수를 
 
+[baekjoon 1890 - 점프](src/Jump.java) ([문제](https://www.acmicpc.net/problem/1890))
+
+지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - BFS 구현 버전 (TIMEOUT 에러)
+
 [baekjoon 1325 - 효율적인 해킹](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
 
 가장 많은 컴퓨터를 감염시킬 수 있는 노드 찾기
@@ -98,6 +102,10 @@ Union-Find 자료구조를 활용해 풀었다.
 [baekjoon 9252 - Longest Common Subsequence 2](src/LCS2.java) Basic ([문제](https://www.acmicpc.net/problem/9252))
 
 [baekjoon 11066 - 파일 합치기](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
+
+[baekjoon 1890 - 점프](src/JumpDp.java) ([문제](https://www.acmicpc.net/problem/1890))
+
+지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - 다이나믹 프로그래밍으로 구현한 버전.
 
 [kakao 76 - 최적 행렬 곱셈](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
 
