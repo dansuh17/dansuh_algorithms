@@ -123,18 +123,18 @@ Union-Find 자료구조를 활용해 풀었다.
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
-[kakao 73 - 올바른 괄호](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+kakao 73 - 올바른 괄호 [java](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 
-[*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
+*baekjoon 1693 - 트리 색칠하기* [java](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
 
 ## Shortest Path Algorithms
 
 ### Bellman-Ford
 
-[baekjoon 11657 - 타임머신](python/time_machine_11657.py) python3.6 ([문제](https://www.acmicpc.net/problem/11657))
+baekjoon 11657 - 타임머신 [python3.6](python/time_machine_11657.py) ([문제](https://www.acmicpc.net/problem/11657))
 
 도시 1부터 나머지 도시까지 가장 가까운 거리를 찾는 문제. 타임머신을 타고 갈 수 있어 음수 시간이 걸릴 수 있다.
 음수 cycle이 존재하는 경우도 찾아낸다.
@@ -159,15 +159,15 @@ N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수�
 
 [#3 카카오 다트 게임](src/KakaoDartGame.java)
 
-[#4 뉴스 클러스터링](src/NewsClustering.java)
+[#4 뉴스 클러스터링](src/NewsClustering.java) - wrong answer
 
 두 string 사이의 자카드 유사도(size(문자열 교집합) / size(문자열 합집합))를 구하는 문제
 
-[#5 프렌즈 4 블록](src/Friends4Block.java)
+[#5 프렌즈 4 블록](src/Friends4Block.java) - wrong answer
 
 2 x 2 블록이 같으면 터지는 게임에서 최종적으로 터지게 되는 칸 개수
 
-[#6 셔틀버스](src/ShuttleBus.java)
+[#6 셔틀버스](src/ShuttleBus.java) - wrong answer
 
 주기적으로 운행되는 셔틀버스를 탈 수 있는 가장 늦은 시간을 구하는 문제
 
