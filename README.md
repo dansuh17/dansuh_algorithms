@@ -2,19 +2,25 @@
 
 Problem types and notation:
 
+- 기본 알고리즘 / 기초 구현 (문제 x) : basics
+
 - 백준 Online Judge : baekjoon
 
 - Kakao coding challenges learning : kakao
 
 - Kakao 2017 채용 모의고사 : kakao-mock
 
-## Finding Rules
+## Finding Rules || Brute Force
 
-[baekjoon 2965 - 캥거루 세마리](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
+baekjoon 2965 - 캥거루 세마리 [java](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
 
-[baekjoon 2577 - 숫자의 개수](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
+baekjoon 2577 - 숫자의 개수 [java](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
 
-[*kakao 157 - 하노이의 탑](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
+baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
+
+자릿수가 등차수열을 이루는 경우 찾기
+
+*kakao 157 - 하노이의 탑 [java](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
 그 유명한 하노이의 탑 문제
 
@@ -22,21 +28,21 @@ Problem types and notation:
 
 ### Sets
 
-[kakao-mock 7 - 스티커 떼기](src/WordPuzzle.java)
+kakao-mock 7 - 스티커 떼기 [java](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
 ### Priority Queue
 
-[baekjoon 1766 - 문제집](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
+baekjoon 1766 - 문제집 [java](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
 
 ### Deque
 
-[baekjoon 5430 - AC](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
+baekjoon 5430 - AC [java](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
 
 ### Tree
 
-[baekjoon 1991 - 트리 순회](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
+baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
 
 [baekjoon 11725 - 트리의 부모 찾기](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
 
@@ -61,6 +67,11 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ## Sorting
 
+
+### Quicksort
+
+basics - quicksort [python3.6](python/quicksort.py)
+
 ### Insertion Sort
 
 [baekjoon 9426 - 중앙값 측정](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
@@ -69,7 +80,7 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ### Breadth-First Search (BFS)
 
-[kakao 591](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
+kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
 
 컬러링북에서 같은 색으로 연결된 영역의 크기 및 영역의 개수를 
 
