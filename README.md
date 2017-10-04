@@ -167,10 +167,15 @@ baekjoon 1865 - 웜홀 [python3.6](python/wormhole_1865.py) ([문제](https://ww
 
 ## Math
 
-[kakao 73 - 올바른 괄호](src/RightParens.java) 카탈란수 (Catalan Number) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+__kakao 73 - 올바른 괄호__ [java](src/RightParens.java) 카탈란수 (Catalan Number)
+ ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 카탈란수의 다른 표현이다. 카탈란수는 n + 1의 leaf node를 가진 binary tree의 개수이다.
+
+## Easy
+
+baekjoon 8393 - 합 [kotlin](kotlin/src/sum.kt) ([문제](https://www.acmicpc.net/problem/8393))
 
 
 ## 2017 Kakao Coding Test
