@@ -1,5 +1,10 @@
 import random
 
+"""
+Implementation of recursive quick sort.
+"""
+
+
 def quicksort(arr):
     if len(arr) <= 1:
         return arr

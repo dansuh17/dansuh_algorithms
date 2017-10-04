@@ -20,7 +20,8 @@ baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.ne
 
 자릿수가 등차수열을 이루는 경우 찾기
 
-*kakao 157 - 하노이의 탑 [java](src/HanoiTower.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
+*kakao 157 - 하노이의 탑 [java](src/HanoiTower.java)
+ ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
 그 유명한 하노이의 탑 문제
 
@@ -44,7 +45,7 @@ baekjoon 5430 - AC [java](src/AC.java) ([문제](https://www.acmicpc.net/problem
 
 baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
 
-[baekjoon 11725 - 트리의 부모 찾기](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
+baekjoon 11725 - 트리의 부모 찾기 [java](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
 
 [baekjoon 1167 - 트리의 지름](src/RadiusOfTree.java) ([문제](https://www.acmicpc.net/problem/1167))
 
@@ -59,7 +60,7 @@ baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://ww
 
 ### Union-Find
 
-[baekjoon 10216 - Count Circle Groups (Union-Find implementation)](src/CountCircleGroups2.java)
+baekjoon 10216 - Count Circle Groups (Union-Find implementation) [java](src/CountCircleGroups2.java)
  ([문제](https://www.acmicpc.net/problem/10216))
 
 그래프에서 서로 연결되어 있는 다른(disjoint) 그래프의 개수를 세는 문제. Disjoint set의 개수를 구하는 문제이므로
@@ -70,11 +71,11 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ### Quicksort
 
-basics - quicksort [python3.6](python/quicksort.py)
+basics - quicksort [python3.6](python/quicksort.py) [java](src/QuickSort.java)
 
 ### Insertion Sort
 
-[baekjoon 9426 - 중앙값 측정](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
+baekjoon 9426 - 중앙값 측정 [java](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
 
 ## Graph
 
@@ -95,6 +96,10 @@ kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcom
 [baekjoon 10216 - Count Circle Groups](src/CountCircleGroups.java) ([문제](https://www.acmicpc.net/problem/10216))
 
 그래프에서 서로 연결되어 있는 다른 그래프의 개수를 세는 문제
+
+baekjoon 14502 - 연구소 [python3.6](python/research_center.py) ([문제](https://www.acmicpc.net/problem/14502))
+
+벽을 3개 세워 바이러스 침투를 막을 때, 가장 많은 공간을 구할 수 있도록 하는 방법을 계산하는 문제 
 
 ### Topological Sorting
 
