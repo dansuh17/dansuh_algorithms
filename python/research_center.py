@@ -32,6 +32,7 @@ def research_center():
     for three_walls in combinations(empty_cells, 3):
         new_map = deepcopy(map)
 
+        # put up the walls
         for wall in three_walls:
             new_map[wall[0]][wall[1]] = 1
 

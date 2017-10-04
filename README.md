@@ -139,7 +139,11 @@ baekjoon 14502 - 연구소 [python3.6](python/research_center.py) ([문제](http
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
-kakao 73 - 올바른 괄호 [java](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+baekjoon 14501 - 퇴사 (삼성SW역량기출) [python3.6](python/twesa_14501.py) ([문제](https://www.acmicpc.net/problem/14501))
+
+퇴사 하기 전 n 일동안 상담을 최대한 빡세게 진행해서 가장 많은 돈을 벌었을 때 그 수익 계산.
+
+*kakao 73 - 올바른 괄호* [java](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 
