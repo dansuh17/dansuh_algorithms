@@ -1,6 +1,6 @@
 # dansuh's Algorithm Practices
 
-Problem types and notation:
+###Problem types and notation:
 
 - 기본 알고리즘 / 기초 구현 (문제 x) : basics
 
@@ -12,15 +12,15 @@ Problem types and notation:
 
 ## Finding Rules || Brute Force
 
-baekjoon 2965 - 캥거루 세마리 [java](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
+- baekjoon 2965 - 캥거루 세마리 [java](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
 
-baekjoon 2577 - 숫자의 개수 [java](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
+- baekjoon 2577 - 숫자의 개수 [java](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
 
-baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
+- baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
 
 자릿수가 등차수열을 이루는 경우 찾기
 
-*kakao 157 - 하노이의 탑 [java](src/HanoiTower.java)
+- __kakao 157 - 하노이의 탑__ [java](src/HanoiTower.java)
  ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
 그 유명한 하노이의 탑 문제
@@ -29,38 +29,41 @@ baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.ne
 
 ### Sets
 
-kakao-mock 7 - 스티커 떼기 [java](src/WordPuzzle.java)
+- kakao-mock 7 - 스티커 떼기 [java](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
 ### Priority Queue
 
-baekjoon 1766 - 문제집 [java](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
+- baekjoon 1766 - 문제집 [java](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
 
 ### Deque
 
-baekjoon 5430 - AC [java](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
+- baekjoon 5430 - AC [java](src/AC.java) ([문제](https://www.acmicpc.net/problem/5430))
 
 ### Tree
 
-baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
+- baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
 
-baekjoon 11725 - 트리의 부모 찾기 [java](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
+- baekjoon 11725 - 트리의 부모 찾기 [java](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
 
-[baekjoon 1167 - 트리의 지름](src/RadiusOfTree.java) ([문제](https://www.acmicpc.net/problem/1167))
+- baekjoon 1167 - 트리의 지름 [java](src/RadiusOfTree.java) [python3.6](python/radius_of_tree_1167.py)
+([문제](https://www.acmicpc.net/problem/1167)) #BFS
 
-[baekjoon 1967 - 트리의 지름](src/RadiusOfTree2.java) ([문제](https://www.acmicpc.net/problem/1967))
+트리에서 가장 거리가 먼 node 사이의 거리를 구하는 문제
 
-[baekjoon 2250 - 트리의 넓이와 깊이](src/TreeHeightWidth.java) ([문제](https://www.acmicpc.net/problem/2250))
+- baekjoon 1967 - 트리의 지름 [java](src/RadiusOfTree2.java) ([문제](https://www.acmicpc.net/problem/1967))
 
-[*baekjoon 1693 - 트리 색칠하기](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
+- baekjoon 2250 - 트리의 넓이와 깊이 [java](src/TreeHeightWidth.java) ([문제](https://www.acmicpc.net/problem/2250))
 
-[*baekjoon 1289 - 트리의 가중치 (Putevi)](src/Putevi.java) ([문제](https://www.acmicpc.net/problem/1289))
+- __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
+
+- __baekjoon 1289 - 트리의 가중치 (Putevi)__ [java](src/Putevi.java) ([문제](https://www.acmicpc.net/problem/1289))
 
 
 ### Union-Find
 
-baekjoon 10216 - Count Circle Groups (Union-Find implementation) [java](src/CountCircleGroups2.java)
+- baekjoon 10216 - Count Circle Groups (Union-Find implementation) [java](src/CountCircleGroups2.java)
  ([문제](https://www.acmicpc.net/problem/10216))
 
 그래프에서 서로 연결되어 있는 다른(disjoint) 그래프의 개수를 세는 문제. Disjoint set의 개수를 구하는 문제이므로
@@ -71,33 +74,38 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ### Quicksort
 
-basics - quicksort [python3.6](python/quicksort.py) [java](src/QuickSort.java)
+- basics - quicksort [python3.6](python/quicksort.py) [java](src/QuickSort.java)
 
 ### Insertion Sort
 
-baekjoon 9426 - 중앙값 측정 [java](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
+- baekjoon 9426 - 중앙값 측정 [java](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
 
 ## Graph
 
 ### Breadth-First Search (BFS)
 
-kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
+- kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
 
 컬러링북에서 같은 색으로 연결된 영역의 크기 및 영역의 개수를 
 
-[baekjoon 1890 - 점프](src/Jump.java) ([문제](https://www.acmicpc.net/problem/1890))
+- baekjoon 1890 - 점프 [java](src/Jump.java) ([문제](https://www.acmicpc.net/problem/1890))
 
 지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - BFS 구현 버전 (TIMEOUT 에러)
 
-[baekjoon 1325 - 효율적인 해킹](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
+- baekjoon 1325 - 효율적인 해킹 [java](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
 
 가장 많은 컴퓨터를 감염시킬 수 있는 노드 찾기
 
-[baekjoon 10216 - Count Circle Groups](src/CountCircleGroups.java) ([문제](https://www.acmicpc.net/problem/10216))
+- baekjoon 1167 - 트리의 지름 [java](src/RadiusOfTree.java) [python3.6](python/radius_of_tree_1167.py)
+([문제](https://www.acmicpc.net/problem/1167)) #BFS #Tree
+
+트리에서 가장 거리가 먼 node 사이의 거리를 구하는 문제
+
+- baekjoon 10216 - Count Circle Groups [java](src/CountCircleGroups.java) ([문제](https://www.acmicpc.net/problem/10216))
 
 그래프에서 서로 연결되어 있는 다른 그래프의 개수를 세는 문제
 
-baekjoon 14502 - 연구소 (삼성SW역량기출) [python3.6](python/research_center.py)
+- baekjoon 14502 - 연구소 (삼성SW역량기출) [python3.6](python/research_center.py)
  ([문제](https://www.acmicpc.net/problem/14502))
 
 벽을 3개 세워 바이러스 침투를 막을 때, 가장 많은 공간을 구할 수 있도록 하는 방법을 계산하는 문제 

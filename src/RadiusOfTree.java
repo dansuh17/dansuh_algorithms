@@ -42,7 +42,7 @@ public class RadiusOfTree {
   }
 
   /**
-   * Starting from ROOT from TREE, find the node that gives maximum node and maximum length.
+   * Starting from ROOT from TREE, find the node that gives maximum length.
    * @param tree tree
    * @param root starting point
    * @return int[] {maxNode, maxLength}
