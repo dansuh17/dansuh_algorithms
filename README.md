@@ -97,7 +97,8 @@ kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcom
 
 그래프에서 서로 연결되어 있는 다른 그래프의 개수를 세는 문제
 
-baekjoon 14502 - 연구소 [python3.6](python/research_center.py) ([문제](https://www.acmicpc.net/problem/14502))
+baekjoon 14502 - 연구소 (삼성SW역량기출) [python3.6](python/research_center.py)
+ ([문제](https://www.acmicpc.net/problem/14502))
 
 벽을 3개 세워 바이러스 침투를 막을 때, 가장 많은 공간을 구할 수 있도록 하는 방법을 계산하는 문제 
 
@@ -117,37 +118,38 @@ baekjoon 14502 - 연구소 [python3.6](python/research_center.py) ([문제](http
 
 [baekjoon 9252 - Longest Common Subsequence 2](src/LCS2.java) Basic ([문제](https://www.acmicpc.net/problem/9252))
 
-[baekjoon 11066 - 파일 합치기](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
+__baekjoon 11066 - 파일 합치기__ [java](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
 
-[baekjoon 1890 - 점프](src/JumpDp.java) ([문제](https://www.acmicpc.net/problem/1890))
+baekjoon 1890 - 점프 [java](src/JumpDp.java) ([문제](https://www.acmicpc.net/problem/1890))
 
 지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - 다이나믹 프로그래밍으로 구현한 버전.
 
-[kakao 76 - 최적 행렬 곱셈](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
+kakao 76 - 최적 행렬 곱셈 [java](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
 
-[*kakao-mock 4 - 정사각형](src/LargestSquare.java)
+__kakao-mock 4 - 정사각형__ [java](src/LargestSquare.java)
 
 0과 1로 이루어진 표에서 1로 이루어진 가장 큰 정사각형을 찾는 문제
 
-[kakao-mock 5 - 땅따먹기](src/LandWar.java)
+kakao-mock 5 - 땅따먹기 [java](src/LandWar.java)
 
-[kakao-mock 6 - 스티커 떼기](src/StickerSum.java)
+kakao-mock 6 - 스티커 떼기 [java](src/StickerSum.java)
 
 스티커 줄에서 스티커를 몇 개 떼어 떼어낸 스티커의 합을 구하는 문제. 1차원 스티커가 원형으로 (cyclic) 연결되어 있고, 인접한 스티커는 뗄 수 없다.
 
-[kakao-mock 7 - String 만들기](src/WordPuzzle.java)
+kakao-mock 7 - String 만들기 [java](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
-baekjoon 14501 - 퇴사 (삼성SW역량기출) [python3.6](python/twesa_14501.py) ([문제](https://www.acmicpc.net/problem/14501))
+baekjoon 14501 - 퇴사 (삼성SW역량기출) [python3.6](python/twesa_14501.py)
+ ([문제](https://www.acmicpc.net/problem/14501))
 
 퇴사 하기 전 n 일동안 상담을 최대한 빡세게 진행해서 가장 많은 돈을 벌었을 때 그 수익 계산.
 
-*kakao 73 - 올바른 괄호* [java](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
+__kakao 73 - 올바른 괄호__ [java](src/RightParens.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 
-*baekjoon 1693 - 트리 색칠하기* [java](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
+__baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
 
 ## Shortest Path Algorithms
