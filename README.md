@@ -185,6 +185,8 @@ N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수�
 
 baekjoon 8393 - 합 [kotlin](kotlin/src/sum.kt) ([문제](https://www.acmicpc.net/problem/8393))
 
+baekjoon 11720 - 숫자의 합 [go](go/sum_11720.go) ([문제](https://www.acmicpc.net/problem/11720))
+
 
 ## 2017 Kakao Coding Test
 
