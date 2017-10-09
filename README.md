@@ -20,6 +20,10 @@
 
 자릿수가 등차수열을 이루는 경우 찾기
 
+- __baekjoon 10875 - 뱀__ [python3.6](python/snake_10875.py) ([문제](https://www.acmicpc.net/problem/10875))
+
+뱀 게임에서 뱀이 언제 죽는지를 맞추는 문제
+
 - __kakao 157 - 하노이의 탑__ [java](src/HanoiTower.java)
  ([문제](https://www.welcomekakao.com/learn/challenge_codes/157))
 
