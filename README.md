@@ -75,14 +75,25 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ## Sorting
 
+### Bubble Sort
+
+- basics - bubble sort [python3.6](python/bubble_sort.py)
+
+### Insertion Sort
+
+- basics - insertion sort [python3.6](python/insertion_sort.py)
+
+- baekjoon 9426 - 중앙값 측정 [java](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
 
 ### Quicksort
 
 - basics - quicksort [python3.6](python/quicksort.py) [java](src/QuickSort.java)
 
-### Insertion Sort
+### Merge Sort
 
-- baekjoon 9426 - 중앙값 측정 [java](src/MeasuringMedian.java) ([문제](https://www.acmicpc.net/problem/9426))
+- basics - merge sort [python3.6](python/merge_sort.py)
+
+### Heap Sort
 
 ## Graph
 
