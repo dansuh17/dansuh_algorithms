@@ -96,6 +96,10 @@ Union-Find 자료구조를 활용해 풀었다.
 
 지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - BFS 구현 버전 (TIMEOUT 에러)
 
+- baekjoon 2468 - 안전 영역 [python3.6](python/safe_area_2468.py) ([문제](https://www.acmicpc.net/problem/2468))
+
+지도를 보고 물에 잠기지 않는 안전 영역의 개수를 구하는 문제
+
 - baekjoon 1325 - 효율적인 해킹 [java](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
 
 가장 많은 컴퓨터를 감염시킬 수 있는 노드 찾기
