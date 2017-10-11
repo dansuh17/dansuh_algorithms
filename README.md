@@ -95,6 +95,8 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ### Heap Sort
 
+- basics - heap sort [python3.6](python/heap_sort.py)
+
 ## Graph
 
 ### Breadth-First Search (BFS)
