@@ -179,6 +179,17 @@ N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수�
 __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](https://www.acmicpc.net/problem/1693))
 
 
+## Basic divide and conquer
+
+- baekjoon 7459 - k번째 숫자 *시간초과* [python3.6](python/kth_number_7459.py) ([문제](https://www.acmicpc.net/problem/7459))
+
+큰 배열에서 k번째 숫자를 찾아내는 문제.
+
+
+### Quickselect
+
+- basics - quickselect [python3.6](python/quickselect.py)
+
 ## Shortest Path Algorithms
 
 ### Bellman-Ford
