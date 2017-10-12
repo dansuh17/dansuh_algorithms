@@ -16,9 +16,13 @@
 
 - baekjoon 2577 - 숫자의 개수 [java](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
 
-- baekjoon 1065 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
+- baekjoon 1065 - 한수 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
 
 자릿수가 등차수열을 이루는 경우 찾기
+
+- __kakao 68 - n queen problem__ [python3.6](python/n_queen.py) ([문제](https://www.welcomekakao.com/learn/challenge_codes/68))
+
+크기 n x n짜리 체스판에 퀸을 n개 놓을 수 있는 경우의 수 구하기
 
 - __baekjoon 10875 - 뱀__ [python3.6](python/snake_10875.py) ([문제](https://www.acmicpc.net/problem/10875))
 
@@ -133,43 +137,43 @@ Union-Find 자료구조를 활용해 풀었다.
 
 ### Topological Sorting
 
-[baekjoon 2252 - 줄 세우기](src/LineUp.java) ([문제](https://www.acmicpc.net/problem/2252))
+- baekjoon 2252 - 줄 세우기 [java](src/LineUp.java) ([문제](https://www.acmicpc.net/problem/2252))
 
-[baekjoon 1516 - 게임 개발](src/GameDevelopment.java) ([문제](https://www.acmicpc.net/problem/1516))
+- baekjoon 1516 - 게임 개발 [java](src/GameDevelopment.java) ([문제](https://www.acmicpc.net/problem/1516))
 
-[baekjoon 1766 - 문제집](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
+- baekjoon 1766 - 문제집 [java](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
 
 ## Dynamic Programming
 
-[baekjoon 2293 - 동전 1](src/CoinOne.java) ([문제](https://www.acmicpc.net/problem/2293))
+- baekjoon 2293 - 동전 1 [java](src/CoinOne.java) ([문제](https://www.acmicpc.net/problem/2293))
 
-[baekjoon 9251 - Longest Common Subsequence](src/LCS.java) Basic ([문제](https://www.acmicpc.net/problem/9251))
+- baekjoon 9251 - Longest Common Subsequence [java](src/LCS.java) Basic ([문제](https://www.acmicpc.net/problem/9251))
 
-[baekjoon 9252 - Longest Common Subsequence 2](src/LCS2.java) Basic ([문제](https://www.acmicpc.net/problem/9252))
+- baekjoon 9252 - Longest Common Subsequence 2 [java](src/LCS2.java) Basic ([문제](https://www.acmicpc.net/problem/9252))
 
-__baekjoon 11066 - 파일 합치기__ [java](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
+- __baekjoon 11066 - 파일 합치기__ [java](src/MergingFiles.java) ([문제](https://www.acmicpc.net/problem/11066))
 
-baekjoon 1890 - 점프 [java](src/JumpDp.java) ([문제](https://www.acmicpc.net/problem/1890))
+- baekjoon 1890 - 점프 [java](src/JumpDp.java) ([문제](https://www.acmicpc.net/problem/1890))
 
 지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - 다이나믹 프로그래밍으로 구현한 버전.
 
-kakao 76 - 최적 행렬 곱셈 [java](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
+- kakao 76 - 최적 행렬 곱셈 [java](src/MatrixMultOpt.java) ([문제](https://www.welcomekakao.com/learn/challenge_codes/76))
 
 __kakao-mock 4 - 정사각형__ [java](src/LargestSquare.java)
 
 0과 1로 이루어진 표에서 1로 이루어진 가장 큰 정사각형을 찾는 문제
 
-kakao-mock 5 - 땅따먹기 [java](src/LandWar.java)
+- kakao-mock 5 - 땅따먹기 [java](src/LandWar.java)
 
-kakao-mock 6 - 스티커 떼기 [java](src/StickerSum.java)
+- kakao-mock 6 - 스티커 떼기 [java](src/StickerSum.java)
 
 스티커 줄에서 스티커를 몇 개 떼어 떼어낸 스티커의 합을 구하는 문제. 1차원 스티커가 원형으로 (cyclic) 연결되어 있고, 인접한 스티커는 뗄 수 없다.
 
-kakao-mock 7 - String 만들기 [java](src/WordPuzzle.java)
+- kakao-mock 7 - String 만들기 [java](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
 
-baekjoon 14501 - 퇴사 (삼성SW역량기출) [python3.6](python/twesa_14501.py)
+- baekjoon 14501 - 퇴사 (삼성SW역량기출) [python3.6](python/twesa_14501.py)
  ([문제](https://www.acmicpc.net/problem/14501))
 
 퇴사 하기 전 n 일동안 상담을 최대한 빡세게 진행해서 가장 많은 돈을 벌었을 때 그 수익 계산.
@@ -196,12 +200,12 @@ __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](
 
 ### Bellman-Ford
 
-baekjoon 11657 - 타임머신 [python3.6](python/time_machine_11657.py) ([문제](https://www.acmicpc.net/problem/11657))
+- baekjoon 11657 - 타임머신 [python3.6](python/time_machine_11657.py) ([문제](https://www.acmicpc.net/problem/11657))
 
 도시 1부터 나머지 도시까지 가장 가까운 거리를 찾는 문제. 타임머신을 타고 갈 수 있어 음수 시간이 걸릴 수 있다.
 음수 cycle이 존재하는 경우도 찾아낸다.
 
-baekjoon 1865 - 웜홀 [python3.6](python/wormhole_1865.py) ([문제](https://www.acmicpc.net/problem/1865))
+- baekjoon 1865 - 웜홀 [python3.6](python/wormhole_1865.py) ([문제](https://www.acmicpc.net/problem/1865))
 
 웜홀을 이용해 출발 지점까지 과거로 돌아갈 수 있는지를 판단하는 문제.
 
