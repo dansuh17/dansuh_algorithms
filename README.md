@@ -10,6 +10,10 @@
 
 - Kakao 2017 채용 모의고사 : kakao-mock
 
+## RTFM - the best algorithm
+
+read the fucking manual
+
 ## Finding Rules || Brute Force
 
 - __kakao 68 - n queen problem__ [python3.6](python/n_queen.py) ([문제](https://www.welcomekakao.com/learn/challenge_codes/68))
@@ -178,6 +182,8 @@ __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](
 ## Shortest Path Algorithms
 
 ### Bellman-Ford
+
+- basics - Bellman-Ford Algorithm [python3.6](python/bellman_ford.py)
 
 - baekjoon 11657 - 타임머신 [python3.6](python/time_machine_11657.py) ([문제](https://www.acmicpc.net/problem/11657))
 
