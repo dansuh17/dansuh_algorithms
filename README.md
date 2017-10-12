@@ -12,14 +12,6 @@
 
 ## Finding Rules || Brute Force
 
-- baekjoon 2965 - 캥거루 세마리 [java](src/ThreeKangaroos.java) ([문제](https://www.acmicpc.net/problem/2965))
-
-- baekjoon 2577 - 숫자의 개수 [java](src/HelloWorld10.java) ([문제](https://www.acmicpc.net/problem/2577))
-
-- baekjoon 1065 - 한수 [python3.6](python/hansu_1065.py) ([문제](https://www.acmicpc.net/problem/1065))
-
-자릿수가 등차수열을 이루는 경우 찾기
-
 - __kakao 68 - n queen problem__ [python3.6](python/n_queen.py) ([문제](https://www.welcomekakao.com/learn/challenge_codes/68))
 
 크기 n x n짜리 체스판에 퀸을 n개 놓을 수 있는 경우의 수 구하기
@@ -101,6 +93,10 @@ Union-Find 자료구조를 활용해 풀었다.
 
 - basics - heap sort [python3.6](python/heap_sort.py)
 
+### Selection Sort
+
+- basics - selection sort [python3.6](python/selection_sort.py)
+
 ## Graph
 
 ### Breadth-First Search (BFS)
@@ -112,14 +108,6 @@ Union-Find 자료구조를 활용해 풀었다.
 - baekjoon 1890 - 점프 [java](src/Jump.java) ([문제](https://www.acmicpc.net/problem/1890))
 
 지도의 왼쪽 끝부터 오른쪽 끝까지 점프해서 이동할 수 있는 경우의 수 계산 - BFS 구현 버전 (TIMEOUT 에러)
-
-- baekjoon 2468 - 안전 영역 [python3.6](python/safe_area_2468.py) ([문제](https://www.acmicpc.net/problem/2468))
-
-지도를 보고 물에 잠기지 않는 안전 영역의 개수를 구하는 문제
-
-- baekjoon 1325 - 효율적인 해킹 [java](src/EffectiveHacking.java) ([문제](https://www.acmicpc.net/problem/1325))
-
-가장 많은 컴퓨터를 감염시킬 수 있는 노드 찾기
 
 - baekjoon 1167 - 트리의 지름 [java](src/RadiusOfTree.java) [python3.6](python/radius_of_tree_1167.py)
 ([문제](https://www.acmicpc.net/problem/1167)) #BFS #Tree
@@ -138,8 +126,6 @@ Union-Find 자료구조를 활용해 풀었다.
 ### Topological Sorting
 
 - baekjoon 2252 - 줄 세우기 [java](src/LineUp.java) ([문제](https://www.acmicpc.net/problem/2252))
-
-- baekjoon 1516 - 게임 개발 [java](src/GameDevelopment.java) ([문제](https://www.acmicpc.net/problem/1516))
 
 - baekjoon 1766 - 문제집 [java](src/PracticeBook.java) ([문제](https://www.acmicpc.net/problem/1766))
 
@@ -163,12 +149,6 @@ __kakao-mock 4 - 정사각형__ [java](src/LargestSquare.java)
 
 0과 1로 이루어진 표에서 1로 이루어진 가장 큰 정사각형을 찾는 문제
 
-- kakao-mock 5 - 땅따먹기 [java](src/LandWar.java)
-
-- kakao-mock 6 - 스티커 떼기 [java](src/StickerSum.java)
-
-스티커 줄에서 스티커를 몇 개 떼어 떼어낸 스티커의 합을 구하는 문제. 1차원 스티커가 원형으로 (cyclic) 연결되어 있고, 인접한 스티커는 뗄 수 없다.
-
 - kakao-mock 7 - String 만들기 [java](src/WordPuzzle.java)
 
 String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 만든다.
@@ -190,7 +170,6 @@ __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](
 - baekjoon 7459 - k번째 숫자 *시간초과* [python3.6](python/kth_number_7459.py) ([문제](https://www.acmicpc.net/problem/7459))
 
 큰 배열에서 k번째 숫자를 찾아내는 문제.
-
 
 ### Quickselect
 
@@ -216,15 +195,6 @@ __kakao 73 - 올바른 괄호__ [java](src/RightParens.java) 카탈란수 (Catal
 
 N개의 괄호쌍을 가지고 가능한 '올바른 괄호'의 조합의 개수를 구하는 문제.
 카탈란수의 다른 표현이다. 카탈란수는 n + 1의 leaf node를 가진 binary tree의 개수이다.
-
-## Easy
-
-- baekjoon 8393 - 합 [kotlin](kotlin/src/sum.kt) ([문제](https://www.acmicpc.net/problem/8393))
-
-- baekjoon 11720 - 숫자의 합 [go](go/sum_11720.go) ([문제](https://www.acmicpc.net/problem/11720))
-
-- baekjoon 11721 - 열 개씩 끊어 출력하기 [go](go/split_11721.go) ([문제](https://www.acmicpc.net/problem/11721))
-
 
 ## 2017 Kakao Coding Test
 
