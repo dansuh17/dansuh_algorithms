@@ -181,6 +181,10 @@ __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](
 
 ## Shortest Path Algorithms
 
+### Dijkstra's Shortest Path
+
+- basics - Dijkstra [python3.6](python/dijkstra.py)
+
 ### Bellman-Ford
 
 - basics - Bellman-Ford Algorithm [python3.6](python/bellman_ford.py)
