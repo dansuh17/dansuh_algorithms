@@ -4,9 +4,9 @@ https://www.acmicpc.net/problem/1780
 
 Recursive Divide and Conquer 문제
 
-time - O(n log n) (from sorting) O(log n) (average for binary search)
-space - O(n)
-auxillary space - O(1) - can be done in-place
+time - O(n log n)
+space - O(n^2)  to store the paper map
+auxillary space - O(1) can be done in-place
 """
 def num_papers():
     n = int(input().strip())
