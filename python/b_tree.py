@@ -1,6 +1,8 @@
 """
 Simple B-Tree implementation.
 
+* Cannot insert duplicate items, but can make a workaround by keeping counts.
+
 Tutorial:
 http://www.geeksforgeeks.org/b-tree-set-1-introduction-2/
 """
@@ -35,6 +37,7 @@ class BTreeNode:
     def __init__(self):
         self.elements = []
         self.children = []
+        self.count = 1
 
     def contains(self, e):
         return e in self.elements
