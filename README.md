@@ -200,6 +200,8 @@ __baekjoon 1693 - 트리 색칠하기__ [java](src/ColoringTree.java) ([문제](
 
 ## Math
 
+- swap with no temporary variables [c (arithmetic)](cpp/swap_notemp.c) [c (XOR)](cpp/swap_notemp_xor.c)
+
 __kakao 73 - 올바른 괄호__ [java](src/RightParens.java) 카탈란수 (Catalan Number)
  ([문제](https://www.welcomekakao.com/learn/challenge_codes/73))
 
