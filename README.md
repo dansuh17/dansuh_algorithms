@@ -47,6 +47,8 @@ String 조각을 가지고 전체 string을 최소한의 조각을 사용해서 
 
 ### Tree
 
+- __POJ 1308 Is it a tree?__ [java](src/IsItATree.java) 주어진 그래프가 트리인지 아닌지를 찾는 문제
+
 - baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
 
 - baekjoon 11725 - 트리의 부모 찾기 [java](src/FindingTreesParent.java) ([문제](https://www.acmicpc.net/problem/11725))
