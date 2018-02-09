@@ -6,6 +6,8 @@
 
 - 백준 Online Judge : baekjoon
 
+- POJ ([run script](cpp/poj.sh) for cpp)
+
 - Kakao coding challenges learning : kakao
 
 - Kakao 2017 채용 모의고사 : kakao-mock
