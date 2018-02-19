@@ -205,6 +205,10 @@ read the fucking manual
 
 ## Math
 
+- GCD (greatest common divisor) [haskell](haskell/gcd.hs)
+
+  Finding GCD of two integers using [Euclidean Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
+
 - swap with no temporary variables [c (arithmetic)](cpp/swap_notemp.c) [c (XOR)](cpp/swap_notemp_xor.c)
 
 - __kakao 73 - 올바른 괄호__ [java](src/RightParens.java) 카탈란수 (Catalan Number)
