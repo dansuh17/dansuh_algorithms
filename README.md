@@ -49,6 +49,8 @@ read the fucking manual
 
 ### Tree
 
+- basics - Binary Tree [haskell](haskell/binary_tree.hs)
+
 - basics - Huffman Code [haskell](haskell/huffman_code.hs) prefix encoding
 
 - __POJ 1308 Is it a tree?__ [java](src/IsItATree.java) 주어진 그래프가 트리인지 아닌지를 찾는 문제
