@@ -59,6 +59,8 @@ read the fucking manual
 
 - basics - Construct Tree From Preorder & Inorder Sequences [haskell](haskell/preintree.hs)
 
+- basics - Internal Path Length [haskell](haskell/ipl.hs)
+
 - __POJ 1308 Is it a tree?__ [java](src/IsItATree.java) 주어진 그래프가 트리인지 아닌지를 찾는 문제
 
 - baekjoon 1991 - 트리 순회 [java](src/TraverseTree.java) ([문제](https://www.acmicpc.net/problem/1991))
