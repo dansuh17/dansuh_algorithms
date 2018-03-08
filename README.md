@@ -215,6 +215,10 @@ read the fucking manual
 
   웜홀을 이용해 출발 지점까지 과거로 돌아갈 수 있는지를 판단하는 문제.
 
+## Combinatorial Game
+
+- Nim game [cpp](cpp/2234_matches_game.cpp)
+
 ## Math
 
 - GCD (greatest common divisor) [haskell](haskell/gcd.hs)
