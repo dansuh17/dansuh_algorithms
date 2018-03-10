@@ -120,6 +120,14 @@ read the fucking manual
 
 ## Graph
 
+- basics - Prim's Algorithm [haskell](haskell/prims.hs)
+
+  Algorithm for finding Minimal Spanning Tree (MST)
+
+- basics - Welsh-Powell's Algorithm [haskell](haskell/welshpowell.hs)
+  
+  Algorithm for graph k-coloring problem.
+
 ### Breadth-First Search (BFS)
 
 - kakao 591 [java](src/KakaoFriendsColoringBook.java) ([문제](https://www.welcomekakao.com/learn/challenges/591))
