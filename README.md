@@ -18,9 +18,9 @@ read the fucking manual
 
 ## Finding Rules || Brute Force
 
-- __kakao 68 - n queen problem__ [python3.6](python/n_queen.py) ([문제](https://www.welcomekakao.com/learn/challenge_codes/68))
+- **n queen problem** [haskell](haskell/EightQueens.hs) [python3.6](python/n_queen.py) ([문제 - kakao 68](https://www.welcomekakao.com/learn/challenge_codes/68))
 
-  크기 n x n짜리 체스판에 퀸을 n개 놓을 수 있는 경우의 수 구하기
+  크기 n x n짜리 체스판에 퀸을 서로 죽일 수 없게 n개 놓을 수 있는 경우의 수 (또는 그 조합) 구하기
 
 - __baekjoon 10875 - 뱀__ [python3.6](python/snake_10875.py) ([문제](https://www.acmicpc.net/problem/10875))
 
