@@ -6,11 +6,16 @@
 
 - 백준 Online Judge : baekjoon
 
-- POJ ([run script](cpp/poj.sh) for cpp)
+- Peking university online judge : POJ
 
 - Kakao coding challenges learning : kakao
 
 - Kakao 2017 채용 모의고사 : kakao-mock
+
+### Miscellaneous
+
+- [Java template (fast scanner)](JavaTemplate.java)
+- [POJ run script for c / c++](cpp/poj.sh)
 
 ## RTFM - the best algorithm
 
