@@ -27,6 +27,10 @@ read the fucking manual
 
   크기 n x n짜리 체스판에 퀸을 서로 죽일 수 없게 n개 놓을 수 있는 경우의 수 (또는 그 조합) 구하기
 
+- **Knight's Tour - Warnsdorff's Rule** [haskell](haskell/Warnsdorf.hs)
+
+  A linear (O(n)) solution heuristic called [Warnsdorff's Rule](https://en.wikipedia.org/wiki/Knight%27s_tour). It proceeds the knight to squares having minimum number of onward moves. Generally, this problem is considered NP-hard since it is a Hamiltonian Path problem.
+
 - __baekjoon 10875 - 뱀__ [python3.6](python/snake_10875.py) ([문제](https://www.acmicpc.net/problem/10875))
 
   뱀 게임에서 뱀이 언제 죽는지를 맞추는 문제
