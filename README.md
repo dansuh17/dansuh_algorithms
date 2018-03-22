@@ -16,6 +16,8 @@
 
 - [Java template (fast scanner)](JavaTemplate.java)
 - [POJ run script for c / c++](cpp/poj.sh)
+- [cpp file r/w template](cpp_readfile.cpp)
+- [Java file r/w template](JavaFileReadTemplate.java)
 
 ## RTFM - the best algorithm
 
