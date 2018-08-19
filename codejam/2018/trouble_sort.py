@@ -9,11 +9,13 @@ def troublesort(arr):
                 arr[j], arr[j + 2] = arr[j + 2], arr[j]
     return arr
 
+
 def find_wrong_idx(arr):
     for i in range(len(arr) - 1):
         if arr[i] > arr[i + 1]:
             return i
     return -1
+
 
 t = int(input())
 for i in range(1, t + 1):
@@ -25,4 +27,3 @@ for i in range(1, t + 1):
         print('Case #{}: {}'.format(i, 'OK'))
     else:
         print('Case #{}: {}'.format(i, wrong_idx))
-
