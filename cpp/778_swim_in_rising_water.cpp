@@ -18,13 +18,16 @@ public:
     int r[] = {1, -1, 0, 0};
     int c[] = {0, 0, 1, -1};
 
+    // heap
     priority_queue<pair<int, int>> pq;
     pq.push({-grid[0][0], 0});
 
+    // dijkstra
     while (!pq.empty()) {
       pair<int, int> t = pq.top();
       pq.pop();
 
+      // decode coordinates
       int i = t.second / n;
       int j = t.second % n;
 
@@ -38,6 +41,7 @@ public:
 
         if (ni >= 0 && ni < n && nj >= 0 && nj < n && !vis[ni * n + nj]) {
           vis[ni * n + nj] = true;
+          // encode coordinates
           pq.push({-grid[ni][nj], ni * n + nj});
         }
       }
